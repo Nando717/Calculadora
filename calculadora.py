@@ -7,6 +7,12 @@
 
 #Calculadora
 
+#def somar(num1, num2):
+#def adicao(num1, num2):
+#def multiplicar(num1, num2):
+#def divisao(num1,num2):
+
+
 operacao = int(input('Olá, qual operação você deseja realizar hoje? digite o número do tipo da operação ex: 1 = adição, 2 = subtração, 3 = multiplicação ou 4 divisão: '))
 numero1 = int(input('Digite seu primeiro número: '))
 numero2 = int(input('Digite seu segundo número: '))
