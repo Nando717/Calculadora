@@ -7,7 +7,20 @@
 
 #Calculadora
 
-#def somar(num1, num2):
+def somar():
+num1 = input('digite o primeiro número: ')
+num2 = input('digite o segundo número: ')
+
+return num1 + num2
+
+
+print(somar())
+
+
+
+
+
+
 #def adicao(num1, num2):
 #def multiplicar(num1, num2):
 #def divisao(num1,num2):
