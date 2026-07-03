@@ -7,60 +7,40 @@
 
 #Calculadora
 
+
+
+operacao = int(input('digite o numero da operaçao desejada: 1 adicao, 2 subtracao, 3 multipicacao, 4 divisao: '))
+
+
+
 def adicao():
-num1 = float(input('digite o primeiro número: '))
-num2 = float(input('digite o segundo número: '))
-
-return num1 + num2
-
-
-print(adicao())
+ num1 = float(input('digite o primeiro número: '))
+ num2 = float(input('digite o segundo numero: '))
+ return num1 + num2
 
 
 def subtracao():
-num1 = float(input('digite seu primeiro número: ')
-num2 = float(input('digite seu segundo número: ')
+ num1 = float(input('digite seu primeiro número: '))
+ num2 = float(input('digite seu segundo numero: ')) return num1 - num2
 
-return num1 - num2
-
-print(subtracao())
-
-
-
-
-
-def multiplicar():
-num1 = float(input('digite seu primeiro número: '))
-num2 = float(input('digite seu segundo número: 0'))
-
-return num1 * num2
-
-print(multiplicar())
-
-
+def multiplicacao():
+  num1 = float(input('digite seu primeiro número: '))
+  num2 = float(input('digite seu segundo número: '))
+  return num1 * num2
 
 def divisao():
-num1 = float(input('digite seu primeiro número'))
-num2 = float(input('digite seu sgundo número'))
-
-return num1 / num2
-
-print(divisao())
-
-
-operacao = int(input('Olá, qual operação você deseja realizar hoje? digite o número do tipo da operação ex: 1 = adição, 2 = subtração, 3 = multiplicação ou 4 divisão: '))
-numero1 = int(input('Digite seu primeiro número: '))
-numero2 = int(input('Digite seu segundo número: '))
+  num1 = float(input('digite seu primeiro número: '))
+  num2 = float(input('digite seu segundo número: '))
+  return num1 / num2
 
 if operacao == 1:
-  resultado = numero1 + numero2
-  print(resultado)
-elif operacao == 2:
-  resultado = numero1 - numero2
-  print(resultado)
-elif operacao == 3:
-  resultado = numero1 * numero2
-  print(resultado)
-elif operacao == 4:
-  resultado = numero1 / numero2
-  print(resultado)
+  print(adicao())
+
+if operacao == 2:
+  print(subtracao())
+
+if operacao == 3:
+  print(multiplicacao())
+
+if operacao == 4:
+  print(divisao())
