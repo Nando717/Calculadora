@@ -7,23 +7,45 @@
 
 #Calculadora
 
-def somar():
-num1 = input('digite o primeiro número: ')
-num2 = input('digite o segundo número: ')
+def adicao():
+num1 = float(input('digite o primeiro número: '))
+num2 = float(input('digite o segundo número: '))
 
 return num1 + num2
 
 
-print(somar())
+print(adicao())
+
+
+def subtracao():
+num1 = float(input('digite seu primeiro número: ')
+num2 = float(input('digite seu segundo número: ')
+
+return num1 - num2
+
+print(subtracao())
 
 
 
 
 
+def multiplicar():
+num1 = float(input('digite seu primeiro número: '))
+num2 = float(input('digite seu segundo número: 0'))
 
-#def adicao(num1, num2):
-#def multiplicar(num1, num2):
-#def divisao(num1,num2):
+return num1 * num2
+
+print(multiplicar())
+
+
+
+def divisao():
+num1 = float(input('digite seu primeiro número'))
+num2 = float(input('digite seu sgundo número'))
+
+return num1 / num2
+
+print(divisao())
 
 
 operacao = int(input('Olá, qual operação você deseja realizar hoje? digite o número do tipo da operação ex: 1 = adição, 2 = subtração, 3 = multiplicação ou 4 divisão: '))
