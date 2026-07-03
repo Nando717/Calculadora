@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Calculadora.ipynb
+
+
 
 
 
@@ -21,7 +22,8 @@ def adicao():
 
 def subtracao():
  num1 = float(input('digite seu primeiro número: '))
- num2 = float(input('digite seu segundo numero: ')) return num1 - num2
+ num2 = float(input('digite seu segundo numero: ')) 
+ return num1 - num2
 
 def multiplicacao():
   num1 = float(input('digite seu primeiro número: '))
