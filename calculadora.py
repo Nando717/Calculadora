@@ -8,7 +8,8 @@
 
 #Calculadora
 
-
+#organizando o sistema para mudanças
+#criando menu para calculadora
 
 operacao = int(input('digite o numero da operaçao desejada: 1 adicao, 2 subtracao, 3 multipicacao, 4 divisao: '))
 
