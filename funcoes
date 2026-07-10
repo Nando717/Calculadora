@@ -1,2 +1,29 @@
 #Arquvios para funções da Calculadora
 
+
+def adicao():
+ num1 = float(input('digite seu primeiro número: '))
+ num2 = float(inoput('digite seu segundo número: '))
+ retun num1 + num2
+
+
+
+
+def subtracao(): 
+ num1 = float(input('digite seu primeiro número: '))
+ num2 = float(input('digite seu segundo número: '))
+ return num1 - num2
+
+
+
+def multiplicacao():
+ num1 = float(input('digite seu primeiro número: '))
+ num2 = float(input('digite seu segundo número: '))
+ return num1 * num2
+
+
+
+def divisao():
+ num1 = float(input('digite seu primeiro número: '))
+ num2 = float(input('digite seu segundo número: '))
+ return num1 / num2
